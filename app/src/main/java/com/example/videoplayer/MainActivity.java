@@ -42,8 +42,9 @@ public class MainActivity extends AppCompatActivity {
 
         permissionForVideo();
     }
+    // files for permission
 
-    private void permissionForVideo() {
+   private void permissionForVideo() {
 
         if ((ContextCompat.checkSelfPermission(getApplicationContext(),
                 Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED)){
